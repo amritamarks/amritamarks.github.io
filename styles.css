@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+  
+}
+
+
+.header { 
+    height: 80px;
+   
+}
+
+.navigation {
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+
+.navigationcontent {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo img {
+    float: left;
+    width: 100px;
+    padding-top: 20px;
+}
+
+.active {
+  color: #CCCCCC;
+}
+
+.links {
+    color: white;
+    float: right;
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.links a:hover{
+    color:#CCCCCC;
+}
+
+.active{
+    color: #CCCCCC;
+}
+
+
+
+
+.aboutcontainer {
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+    padding-top: 20px;
+}
+
+.portrait img {
+    height: 400px;
+    float: right;
+    padding-top: 75px;
+}
+
+.abouttext {
+    padding-top: 150px;
+    height: 300px;
+    float: left;
+    max-width: 550px;
+
+}
+
+.abouttitle {
+    height: 40px;
+    font-size: 2rem;
+    font-weight: 500;
+   
+}
+
+.aboutsubtitle {
+    height: 40px;
+    font-size: 2rem;
+}
+
+.aboutbody {
+    padding-top: 20px;
+    height: 100px;
+    width: 400px;
+    font-size: 0.95rem;
+    font-weight: 300;
+}
+
+
+
+
+.blackbackground {
+    height: 80px;
+    background-color: black;
+}
+
+.portfoliocontainer {
+    background-color: black;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+}
+
+.portfoliotitle {
+    color: white;
+    padding-left: 100px;
+    font-size: 2rem;
+    padding-top: 20px;
+    float: left;
+    
+}
+
+
+
+
+.photographycontainer {
+    height: 1050px;
+    padding-top: 20px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+}
+
+.leftphotoscontainer {
+    width: 300px;
+    height: 650px;
+    padding-left: 100px;
+    float: left;
+    padding-top: 60px;
+}
+
+.photo1 img {
+    width: 300px;
+    float: left;
+}
+
+.phototext {
+    float: right;
+    width: 520px;
+    height: 300px;
+    max-width: 600px;
+    padding-top: 50px;
+}
+
+.phototitle {
+    padding-top: 150px;
+    float: left;
+    font-size: 2rem;
+}
+
+.photobody {
+    padding-top: 210px;
+    width: 400px;
+    height: 180px;
+    font-size: 0.95rem;
+    font-weight: 300;
+}
+
+.photo3 img {
+    width: 300px;
+    float: left;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.photo2 img {
+    width: 300px;
+    padding-top: 30px;
+    float: left;
+}
+
+
+
+.businesscardscontainer {
+    height: 800px;
+    padding-top: 200px;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.businesstext {
+    width: 400px;
+    height: 200px;
+    padding-top: 310px;
+    max-width: 400px;
+    float: left;
+    padding-left: 50px;
+}
+
+.businesstitle {
+    height: 50px;
+    width: 400px;
+    font-size: 2rem;
+}
+
+.businessbody {
+    width: 400px;
+    height: 100px;
+    padding-top:5px;
+    font-size: 0.95rem;
+    font-weight: 300;
+}
+
+.cardscontainer {
+    float: right;
+    width: 350px;
+    height: 600px;
+    padding-top: 80px;
+    max-width: 350px;
+}
+
+.business1 img {
+    width: 300px;
+}
+
+.business2 img {
+    width: 300px;
+    padding-top: 30px;
+}
+
+.business3 img {
+    width: 300px;
+    padding-top: 30px; 
+}
+
+
+
+.magcovercontainer {
+    height: 1300px;
+    padding-top: 200px;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coverphotoscontainer {
+    float: left;
+    height: 1150px;
+    width: 530px;
+}
+
+.coverphoto1 img {
+    width: 250px;
+    float: left;
+}
+
+.coverphoto2 img {
+    padding-left: 30px;
+    width: 250px;
+    float: left;
+}
+
+.coverphoto3 img {
+    width: 250px;
+    float: left;
+    padding-top: 30px;
+}
+
+.coverphoto4 img {
+    padding-left: 30px;
+    width: 250px;
+    float: left;
+    padding-top: 30px;
+}
+
+.coverphoto5 img {
+    width: 250px;
+    float: left;
+    padding-top: 30px;
+}
+
+.coverphoto6 img {
+    padding-left: 30px;
+    width: 250px;
+    float: left;
+    padding-top: 30px;
+}
+
+.covertextcontainer {
+    float: right;
+    width: 350px;
+    height: 330px;
+    padding-top: 450px;
+}
+
+.covertexttitle {
+    height: 50px;
+    width: 400px;
+    font-size: 2rem;
+}
+
+.covertextbody {
+    height: 250px;
+    width: 340px;
+    font-size: 0.95rem;
+    font-weight: 300;
+}
+
+
+
+.magspreadcontainer {
+    height: 1000px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+}
+
+.magspreadtext {
+    float: left;
+    height: 400px;
+    width: 500px;
+    padding-top: 400px;
+    
+}
+
+.magspreadtitle {
+    height: 50px;
+    width: 400px;
+    font-size: 2rem;
+}
+
+.magspreadbody {
+    height: 250px;
+    width: 390px;
+    font-size: 0.95rem;
+    font-weight: 300;
+}
+
+.spreadphotoscontainer {
+    float: right;
+    width: 400px;
+    height: 1000px;
+}
+
+.spreadphoto1 img {
+    width: 400px;
+}
+
+.spreadphoto2 img {
+    padding-top: 30px;
+    width: 400px;
+}
+
+.spreadphoto3 img {
+    padding-top: 30px;
+    width: 400px;
+}
+
+
+
+.postercontainer {
+    height: 500px;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    padding-bottom: 150px;
+}
+
+.posterimage img {
+    width: 300px;
+    float: left;
+}
+
+.postertext {
+    float: right;
+    width: 330px;
+    height: 300px;
+    padding-top: 120px;
+}
+
+.postertitle {
+    height: 50px;
+    width: 400px;
+    font-size: 2rem;
+}
+
+.posterbody {
+    height: 250px;
+    font-size: 0.95rem;
+    font-weight: 300;
+}
+
+
+
+.futurecontainer {
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+.futuretextcontainer {
+    width: 400px;
+    padding-top: 200px;
+    height: 350px;
+    float: left;
+}
+
+.futuretitle {
+    float: left;
+    height: 50px;
+    width: 400px;
+    font-size: 2rem;
+}
+
+.futurebody1 {
+    float: left;
+    height: 400px;
+    width: 400px;
+    font-size: 0.95rem;
+    font-weight: 300;
+}
+
+.typeimage img {
+    width: 300px;
+    float: right;
+    padding-top: 150px;
+}
+
+
+
+
+
