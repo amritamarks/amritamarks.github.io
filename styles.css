@@ -42,10 +42,6 @@ div {
     padding-top: 20px;
 }
 
-.active {
-  color: #CCCCCC;
-}
-
 .links {
     color: white;
     float: right;
@@ -60,13 +56,14 @@ div {
     padding-right: 10px;
 }
 
+.links .active {
+    color: #CCCCCC;
+}
+
 .links a:hover{
     color:#CCCCCC;
 }
 
-.active{
-    color: #CCCCCC;
-}
 
 
 

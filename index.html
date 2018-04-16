@@ -5,8 +5,27 @@
 <title>Amrita Marks Porfolio</title>
     <link rel="stylesheet"
           href="styles.css">
-
     
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            var $sections = $('.section');
+            $(window).scroll(function(){
+                var currentScroll = $(this).scrollTop();
+                var $currentSection
+                $sections.each(function(){
+                    var divPosition = $(this).offset().top;
+                    if( divPosition - 1 < currentScroll ){
+                        $currentSection = $(this);
+                    }
+                    var id = $currentSection.attr('id');
+                    $('a').removeClass('active');
+                    $("[href=#"+id+"]").addClass('active');
+                })
+            });
+        });
+    </script>
     
     
     </head>
@@ -24,7 +43,7 @@
                 
             <div class="links">
                 
-                <a href="#about_anchor"><span class="active">about</span></a>
+                <a href="#about_anchor">about</a>
                 &bull;
                 
                 <a href="#photo_anchor">photography</a>&bull;
@@ -52,7 +71,7 @@
             
             <div class="abouttext">
                 
-                <div class="abouttitle" id="about_anchor">about: amrita marks</div>
+                <div class="abouttitle section" id="about_anchor">about: amrita marks</div>
             
                 <div class="aboutsubtitle">my mind is a jungle</div>
                 
@@ -86,7 +105,7 @@
             
         <div class="phototext">
             
-            <h2 id="photo_anchor"></h2>
+            <h2 id="photo_anchor" class="section"></h2>
             
         <div class="phototitle">photography</div>
         <div class="photobody">These photos brought my visions of jungle landscapes and a feeling of escapism to life. The rich shades of green highlight the garden background, which is the main focus of the images.</div>
@@ -100,7 +119,7 @@
         
         <div class="businesscardscontainer">
         
-            <h2 id="card_anchor"></h2>
+            <h2 id="card_anchor" class="section"></h2>
             
         <div class="businesstext">
             <div class="businesstitle">
@@ -162,7 +181,7 @@
                 
             </div>
             
-            <h2 id="magcover_anchor"></h2>
+            <h2 id="magcover_anchor" class="section"></h2>
             
             <div class="covertextcontainer">
             
@@ -213,7 +232,7 @@
             
         </div>
         
-         <h2 id="poster_anchor"></h2>
+         <h2 id="poster_anchor" class="section"></h2>
         <div class="postercontainer">
         
             
@@ -235,13 +254,9 @@
         
         </div>
         
-        <h2 id="future_anchor"></h2>
+        <h2 id="future_anchor" class="section"></h2>
         
         <div class="futurecontainer">
-        
-            
-            
-            
             
             <div class="futuretextcontainer">
             
